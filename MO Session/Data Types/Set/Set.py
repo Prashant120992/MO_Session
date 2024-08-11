@@ -12,7 +12,7 @@
 # Syntax 1:
 # {value1, value2}
 # Example 1: {10,20,30}
-# Example 3: {12, "Prashant" 71.5} --> Set of different values such as integer, string and float.
+# Example 3: {12, "Prashant" 71.5} → Set of different values such as integer, string and float.
 
 # Another way to create a set using set constructor.
 # Syntax 2:
@@ -70,12 +70,12 @@ print(MySetCopy)
 # 2nd way to create a set.
 print("************2nd Way to Create a Set*******************")
 print("************Set Creation using list*******************")
-set1 = set([1, 2, 3, 4]) # Created with the help of list.
+set1 = {1, 2, 3, 4}  # Created with the help of list.
 print(set1)
 
-set2 = set(["Prashant", 65.4, 1, 2, 3, 4])
+set2 = {"Prashant", 65.4, 1, 2, 3, 4}
 print(set2)  # Created with the help of list.
 
 print("************Set Creation using tuple*******************")
-set3=set(("Python", 65.4, 1, 2, 3, 4))
+set3 = {"Python", 65.4, 1, 2, 3, 4}
 print(set3)

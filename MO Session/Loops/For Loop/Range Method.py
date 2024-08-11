@@ -24,5 +24,5 @@ for i in range(30):  # Get 0-100 numbers from here.
         evenNumbers.append(i)  # Append even numbers to evenNumbers list.
     else:
         oddNumbers.append(i)  # Append odd numbers to oddNumbers list.
-print("evenNumbers = ", evenNumbers)  # Print even a number list.
+print("evenNumbers = ", evenNumbers)  # Print an "Even" number list.
 print("oddNumbers", oddNumbers)  # Print odd number list.

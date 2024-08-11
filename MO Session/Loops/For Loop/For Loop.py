@@ -15,7 +15,7 @@ for x in name:
     # The "x" will be any variable name that is local. We can give any name.
     # The "name" will be an object name that we want to traverse or which we want to iterate.
     # In the current example, we want to iterate "name", which is a string type.
-    # After name, there must be semicolon and hit enter. Then the cursor has to move 4 whitespaces.
+    # After name, there must be semicolon and hit entering. Then the cursor has to move 4 whitespaces.
     print(x)
     # Here when we say name, the string name is a sequence of charter.
     '''Here each character will be picked up by the variable x every time then printing. 

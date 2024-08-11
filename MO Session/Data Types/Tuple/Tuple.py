@@ -11,7 +11,8 @@ mutable. In the list, we can override the values.'''
 # Syntax 1:
 # (value1, value2)
 # Example :
-# (1,"Python", 2, "Selenium") --> 4 Values. Integer and String Values.
+# (1,"Python", 2, "Selenium") → 4 Values.
+# Integer and String Values.
 # Syntax 2: Like a list, set and dictionary, we can use tuple constructor by using tuple() constructor.
 # Example :
 # tup1=tuple([1,"Python", 2, "Selenium"]) --> In the constructor we need to pass tuple values.
@@ -61,7 +62,8 @@ mutable. In the list, we can override the values.'''
 # Syntax 1:
 # (value1, value2)
 # Example :
-# (1,"Python", 2, "Selenium") --> 4 Values. Integer and String Values.
+# (1,"Python", 2, "Selenium") → 4 Values.
+# Integer and String Values.
 # Syntax 2: Like a list, set and dictionary, we can use tuple constructor by using tuple() constructor.
 # Example :
 # tup1=tuple([1,"Python", 2, "Selenium"]) --> In the constructor we need to pass tuple values.
@@ -118,7 +120,7 @@ Also set unordered so it will print in random order.'''
 # No, We cannot as dictionary needs a key value pair.
 
 # Imp: When we are pass single string value within tuple without a comma, it will read character by character.
-tup4 = ("Prashant")
+tup4 = "Prashant"
 print("Length of a tup4 without comma :", len(tup4))
 # Returns length as 8 as it will read character by character since there is no comma after one string.
 
@@ -134,9 +136,9 @@ print("*******Tuples inside the List******************")
 li1 = [(1, 2, 3), (4, 5, 6), (7, 8, 9)]  # In the list, we can have multiple tuples those are separated by commas.
 print("Tuples inside the list :", li1)
 # In the above list(li1) we have 3 tuples.
-# 1st Tuple --> (1, 2, 3)
+# 1st Tuple → (1, 2, 3)
 # 2nd Tuple --> (4, 5, 6)
-# 3rd Tuple --> (7, 8, 9)
+# 3rd Tuple → (7, 8, 9)
 # If I need to access Tuple 1 then
 print("Accessing Tuple 1 : ", li1[0])  # Accessing 1st Tuple through index value 0.
 print("Accessing Tuple 2 : ", li1[1])  # Accessing 2nd Tuple through index value 1.

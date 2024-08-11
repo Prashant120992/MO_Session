@@ -1,5 +1,6 @@
 # 1. String is Immutable.
-# 2. String is sequence of Character. Python does not have Character Data Type.
+# 2. String is a sequence of Character.
+# Python does not have Character Data Type.
 # 3. String can be represented by "" or ''\
 first_name = "Prashant"
 last_Name = 'Hiremath'
@@ -11,11 +12,11 @@ print(first_name + " " + last_Name)
 
 name = "I don't know anyone in this session"  # Double quote should be ended with double quote.
 print(name)
-# If I want to print double quote then use one escape Sequence by using backward slash
+# If I want to print double quote, then use one escape Sequence by using backward slash
 programming = "\"Python\""
 print(programming)
 
-# If I need to give a tab in between sequence of Characters
+# If I need to give a tab in between a sequence of Characters
 name = "I Know\tPython"
 print(name)
 
@@ -50,14 +51,15 @@ myLang = "I know {}".format("Python")  # Using Format method.
 print(myLang)
 myLang = "I know {} {} {}".format("Python", "Java", "SQL")  # Multiple braces are also allowed.
 print(myLang)
-myLang = "I know {0} {2} {1}".format("Python", "Java", "SQL")  # If we want to print sequence in random order,
+myLang = "I know {0} {2} {1}".format("Python", "Java", "SQL")  # If we want to print a sequence in random order,
 # we can address based on Index and pass Index number within {}
 print(myLang)
-# In the above case there are only 3 values so that we can assign values and remember them easily.
-# But wha if there are huge values ? Then to avoid this we can use key associated with that value.
+# In the above case, there are only 3 values so that we can assign values and remember them easily.
+# But wha if there are huge values?
+# Then, to avoid this, we can use key associated with that value.
 myLang = "I Know {p} {s} {j}".format(p="Python", j="Java", s="SQL")
 print(myLang)
-# In the above example we should make sure that we are passing same number of argument in format method.
+# In the above example, we should make sure that we are passing the same amount of argument in format method.
 
 print("**********fStrings**************")
 name = "Prashant"
